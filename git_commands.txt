@@ -1,0 +1,50 @@
+git --version
+  817  cd ..
+  818  mkdir github_workshp
+  819  cd git
+  820  cd github_workshp/
+  821  clear
+  822  vi testing.py
+  823  python3 testing.py 
+  824  git init
+  825  ls -a
+  826  ls -ltr
+  827  ls --help
+  828  git status
+  829  ls
+  830  git add testing.py 
+  831  git status 
+  832  git add testing.py 
+  833  git commit -m "test commit"
+  834  git status 
+  835  rm testing.py 
+  836  ls
+  837  git restore testing.py
+  838  ls
+  839  git remote add https://github.com/uzma9767/github_workshp.git
+  840  git status
+  841  ls
+  842  git remote add origin https://github.com/uzma9767/github_workshp.git
+  843  git push -u origin master
+  844  git remote -v
+  845  vi test2.py
+  846  git status
+  847  git remote -v
+  848  git remote add origin https://github.com/uzma9767/github_workshp.git
+  849  git push origin master
+  850  ls
+  851  git add
+  852  git add .
+  853  git status
+  854  git commit -m "my 2nd commit"
+  855  git push origin master
+  856  vi test3.py
+  857  git add .
+  858  git commit -m "3rd commit"
+  859  git remote add origin master
+  860  git push origin master
+  861  ls
+  862  vi git_commands
+  863  ls
+  864  rm git_commands 
+  865  vi git_commands.txt
